@@ -260,7 +260,7 @@ AND city_origin = 'Paris';
 
 Nicht-skalare Unterabfrage
 
-Hier ist ein Beispiel für eine nicht-skalare SELECT-Abfrage mit einer Subquery:
+Hier ist ein Beispiel für eine **nicht-skalare SELECT-Abfrage** mit einer Subquery:
 
 USE subselect;
 
