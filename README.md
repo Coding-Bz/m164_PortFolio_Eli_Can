@@ -187,11 +187,49 @@ Heute war’s ehrlich gesagt der stressigste Tag bisher, weil wir auch noch die 
 
 ### Tag 5 Notizen
 
-_Folgt._
+## Funktionen, die häufig mit `GROUP BY` verwendet werden
+
+- **COUNT**  
+  Gibt die Anzahl der Zeilen zurück.
+
+- **SUM**  
+  Berechnet die Summe der Werte insgesamt.
+
+- **AVG**  
+  Berechnet den Durchschnitt.
+
+- **MIN**  
+  Gibt den kleinsten Wert zurück.
+
+- **MAX**  
+  Gibt den grössten Wert zurück.
+
+---
+
+## Datenintegrität
+
+Datenintegrität stellt sicher, dass Daten in der Datenbank korrekt, konsistent und vollständig bleiben. Sie umfasst mehrere Aspekte:
+
+- **Eindeutigkeit & Konsistenz:** Kein doppelter oder unerwarteter Datenverlust  
+- **Referenzielle Integrität:** Beziehungen zwischen Tabellen bleiben gültig (z. B. eine Bestellung ist nur mit existierendem Kunden möglich)  
+- **Datentypen & Beschränkungen:** Daten müssen im richtigen Format gespeichert werden  
+- **Validierung:** Daten werden vor der Speicherung geprüft  
+
+---
+
+## Referenzielle Integrität
+
+Referenzielle Integrität bedeutet, dass die Beziehungen zwischen Tabellen stets gültig sind. Dazu gehören:
+
+- **FK-Constraints:** Verhindern ungültige oder inkonsistente Verknüpfungen  
+- **Lösch- und Update-Regeln:** Steuern, wie sich Änderungen an Primärschlüsseln auf abhängige Tabellen auswirken  
+- **Langfristige Konsistenz:** Sicherstellung, dass historische und aktuelle Daten korrekt abrufbar bleiben  
+
+---
 
 ### Tag 5 Reflexion
 
-_Folgt._
+Heute konnte ich erneut sehr viel lernen und habe vieles mitgenommen. Ich bin davon überzeugt, dass alles, was ich heute gelernt habe, äusserst wichtig für das LB2 ist. Deshalb gebe ich mir grosse Mühe, alles wirklich zu verstehen. Insgesamt konnte ich heute auch viel praktisch austesten, worüber ich sehr glücklich bin.
 
 ---
 
