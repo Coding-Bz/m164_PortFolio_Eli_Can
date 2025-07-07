@@ -280,13 +280,13 @@ Heute war ich mehrheitlich mit dem praktische unterwegs, also in Verhleich uz de
 
 ## Tag 7
 
-# Tag 7 – Notizen
+### Tag 7 – Notizen
 
-## Datensicherung von Datenbanken
+#### Datensicherung von Datenbanken
 
 Datenbanksysteme spielen eine grosse Rolle – sei es für das Speichern von schützenswerten Kundendaten oder Produktinformationen. Weil diese Daten so wichtig sind, müssen sie gesichert und geschützt werden.
 
-### Möglichkeiten zur Sicherung von Datenbanken
+#### Möglichkeiten zur Sicherung von Datenbanken
 
 - **Voll-Backup:**  
   Hier geht es um ein komplettes Backup, welches sehr kostenintensiv ist und eine riesige Kapazität verbraucht. Dafür hat man jedoch eine Sicherung des gesamten Produkts.
