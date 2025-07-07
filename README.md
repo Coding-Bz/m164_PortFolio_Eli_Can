@@ -240,7 +240,7 @@ Heute konnte ich erneut sehr viel lernen und habe vieles mitgenommen. Ich bin da
 **SUBQUERY (SUBSELECT / Unterabfrage)**
 
 Ein Subselect in einer MySQL-Datenbank ist eine Abfrage innerhalb einer anderen Abfrage.
-![Alternativtext]([https://gitlab.com/ch-tbz-it/Stud/m164/-/raw/main/x_res/m164_modul%C3%BCbersicht-Theorie.drawio.pn](https://gitlab.com/ch-tbz-it/Stud/m164/-/raw/main/6.Tag/media/Nicht_Skalar.png)g)
+![Alternativtext](https://gitlab.com/ch-tbz-it/Stud/m164/-/raw/main/6.Tag/media/Nicht_Skalar.png)
 
 
 
