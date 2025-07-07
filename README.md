@@ -299,7 +299,7 @@ Datenbanksysteme spielen eine grosse Rolle – sei es für das Speichern von sch
 
 ---
 
-# Tag 7 – Reflexion
+### Tag 7 – Reflexion
 
 Ich hatte dieses Thema schon einmal, daher war es für mich mehrheitlich nichts Neues. Aus diesem Grund habe ich meine Zeit heute grösstenteils dafür genutzt, ältere Themen zu wiederholen. Trotzdem habe ich auch zu diesem Thema Notizen gemacht.  
 Mit meiner heutigen Leistung bin ich zufrieden.
@@ -307,7 +307,8 @@ Mit meiner heutigen Leistung bin ich zufrieden.
 
 ---
 
-## Tag 8 – Abschlussreflexion
+## Tag 8 – Reflexion
 
-_Folgt._
+Insgesamt lief heute alles gut, da es die letzte Stunde vor der Prüfung ist habe ich mich auf die vergangen Aufgaben fokusiert und habe auch die Musterprüfung gelöst. 
+Ich habe keine Notizen erstellt, da es heute kein neues Thema gab.
 
