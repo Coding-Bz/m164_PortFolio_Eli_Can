@@ -233,23 +233,48 @@ Heute konnte ich erneut sehr viel lernen und habe vieles mitgenommen. Ich bin da
 
 ---
 
-## Tag 6
-
 ### Tag 6 Notizen
 
-**SUBQUERY (SUBSELECT / Unterabfrage)**
+#### **SUBQUERY (SUBSELECT / Unterabfrage)**
 
-Ein Subselect in einer MySQL-Datenbank ist eine Abfrage innerhalb einer anderen Abfrage.
+Ein Subselect in einer MySQL-Datenbank ist eine Abfrage **innerhalb einer anderen Abfrage**.
+
 ![Alternativtext](https://gitlab.com/ch-tbz-it/Stud/m164/-/raw/main/6.Tag/media/Nicht_Skalar.png)
 
+---
+
+#### Skalare Unterabfrage
+
+Hier ist ein Beispiel für eine **skalare SELECT-Abfrage** mit einer Subquery:
+
+```sql
+SELECT city_destination, ticket_price, travel_time, transportation 
+FROM one_way_ticket
+WHERE ticket_price < (
+    SELECT MIN(ticket_price) 
+    FROM one_way_ticket
+    WHERE city_destination = 'Bariloche' AND city_origin = 'Paris'
+)
+AND city_origin = 'Paris';
 
 
+#### Nicht-skalare Unterabfrage
 
+Hier ist ein Beispiel für eine nicht-skalare SELECT-Abfrage mit einem DB für Subselect:
+
+```sql
+use subselect;
+SELECT name, age, country
+FROM users
+WHERE country IN 
+(  -- hier beginnt Subquery: 
+   SELECT name FROM country WHERE region = 'Europa'
+)
 
 
 ### Tag 6 Reflexion
 
-_Folgt._
+Heute war ich mehrheitlich mit dem praktische unterwegs, also in Verhleich uz den anderen Tagne habe ich viel weniger Theorie durchgenommen, was mich leicht unsicher macht aber in der Prüfung hat das prakstische Teil mehr Punkte, deshalb bin auch okay damit. Insegesamt war ich heute sehr produktiv.
 
 ---
 
