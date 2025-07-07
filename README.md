@@ -257,7 +257,7 @@ Ein Subselect in einer MySQL-Datenbank ist eine Abfrage **innerhalb einer andere
 
 Hier ist ein Beispiel für eine **skalare SELECT-Abfrage** mit einer Subquery:
 
-```sql
+
 SELECT city_destination, ticket_price, travel_time, transportation 
 FROM one_way_ticket
 WHERE ticket_price < (
@@ -267,6 +267,19 @@ WHERE ticket_price < (
 )
 AND city_origin = 'Paris';
 
+Nicht-skalare Unterabfrage
+
+Hier ist ein Beispiel für eine nicht-skalare SELECT-Abfrage mit einer Subquery:
+
+USE subselect;
+
+SELECT name, age, country
+FROM users
+WHERE country IN (
+    SELECT name 
+    FROM country 
+    WHERE region = 'Europa'
+);
 
 ### Tag 6 Reflexion
 
