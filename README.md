@@ -148,16 +148,38 @@ Ich konnte heute viele verschiedene Themen bearbeiten. Allerdings war ich etwas 
 
 ### Tag 4 Notizen
 
-| Beziehungstyp (logisch)    | MasterTab.links → DetailTab.rechts | Möglich | Nicht möglich / wird zu | Constraints FK         |
-|----------------------------|-------------------------------------|---------|--------------------------|------------------------|
-| **eins zu eins**           | 1:c  c:c                            | 1:1     | ➔ 1:c                   | NN, UQ  --   UQ        |
-| **eins zu viele**          | 1:mc  c:mc                          | 1:m     | ➔ 1:mc<br>c:m ➔ c:mc     | NN  --   --  --        |
-| **viele zu viele**         | m:m, m:mc, mc:m, mc:mc              | –       | ➔ 1:mc–[TT]–mc:1         | –<br>NN -- & NN --     |
+| Beziehungstyp (logisch)    | MasterTab.links → DetailTab.rechts | Möglich | Nicht möglich / wird zu        | Constraints FK             |
+|----------------------------|-------------------------------------|---------|--------------------------------|----------------------------|
+| **eins zu eins**           | 1:c, c:c                            | 1:1     | ➔ 1:c                          | `NOT NULL`, `UNIQUE`       |
+| **eins zu viele**          | 1:mc, c:mc                          | 1:m     | ➔ 1:mc<br>c:m ➔ c:mc           | `NOT NULL`                 |
+| **viele zu viele**         | m:m, m:mc, mc:m, mc:mc              | –       | ➔ 1:mc – [TT] – mc:1           | `NOT NULL` auf beiden FKs  |
 
+---
+
+#### JOINs 
+
+Wenn man Daten aus mehreren Tabellen zusammenbringen will, braucht man JOINs. JOINs verbinden Tabellen über gemeinsame Werte – meistens über Primär- und Fremdschlüssel.
+
+- **`INNER JOIN`**  
+  Zeigt **nur Datensätze**, die in **beiden Tabellen** vorkommen.  
+  Wenn ein Kunde keine Bestellung gemacht hat, sieht man ihn nicht.
+
+- **`LEFT JOIN`**  
+  Zeigt **alle** aus der **linken Tabelle**, auch wenn es rechts kein Match gibt.  
+  Fehlende Werte auf der rechten Seite werden mit `NULL` ergänzt.
+
+- **`RIGHT JOIN`**  
+  Umgekehrt: Alle aus der **rechten Tabelle** werden gezeigt, auch ohne Match links.
+
+- **`FULL OUTER JOIN`**  
+  (Nicht in jedem System verfügbar):  
+  Zeigt alles – aus beiden Tabellen – auch wenn es keine Übereinstimmungen gibt.
+
+---
 
 ### Tag 4 Reflexion
 
-_Folgt._
+Heute war’s ehrlich gesagt der stressigste Tag bisher, weil wir auch noch die LB1 hatten. Deshalb konnte ich im Vergleich zu den letzten Tagen nicht alles lösen, was ich wollte. Trotzdem habe ich zu den wichtigsten Sachen Notizen gemacht und an den Aufträgen gearbeitet. Ich bin heute nicht wirklich zufrieden mit meiner Leistung, aber das nehme ich mit nächstes Mal geb ich mir mehr Mühe und plane besser vor.
 
 ---
 
