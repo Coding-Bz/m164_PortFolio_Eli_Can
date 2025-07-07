@@ -63,7 +63,8 @@ Heute ging es darum, die Grundlagen der Datenmodellierung zu wiederholen. Ich ko
 
 ### Tag 2 Notizen
 
-_Bild-Link folgt._
+![Alternativtext](https://gitlab.com/ch-tbz-it/Stud/m164/-/raw/main/2.Tag/media/213e861ebd732e0ed4f44ca81930149a.png)
+
 
 #### Generalisierung
 - Mehrere ähnliche Entitäten werden zu einer gemeinsamen Oberklasse zusammengefasst.
@@ -122,14 +123,16 @@ Im Vergleich zum Vortag konnte ich heute deutlich mehr Neues lernen. Ich habe al
 
 #### Einfache Hierarchie (mit Zwischentabelle)
 
-_Visualisierung folgt._
+![Alternativtext](https://gitlab.com/ch-tbz-it/Stud/m164/-/raw/main/3.Tag/media/Einfache_Hierarchie.png)
+
 
 - Statt rekursiver FK in derselben Tabelle wird eine **Verknüpfungstabelle** genutzt.
 - Beispiel: `Kategorie_Hierarchie(ElternID, KindID)`
 
 #### Stücklistenproblem (Bill of Materials – BOM)
 
-_Visualisierung folgt._
+![Alternativtext](https://gitlab.com/ch-tbz-it/Stud/m164/-/raw/main/3.Tag/media/a23bd48e09ca11406474760f63e8d173.png)
+
 
 - Ziel: Ermittlung aller elementaren Bestandteile eines Produkts
 - Beispiel: Ein Fahrrad besteht aus Rahmen, Rädern etc., diese wiederum aus Felgen, Speichen usw.
