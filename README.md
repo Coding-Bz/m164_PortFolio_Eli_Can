@@ -232,7 +232,7 @@ Referenzielle Integrität bedeutet, dass die Beziehungen zwischen Tabellen stets
 Heute konnte ich erneut sehr viel lernen und habe vieles mitgenommen. Ich bin davon überzeugt, dass alles, was ich heute gelernt habe, äusserst wichtig für das LB2 ist. Deshalb gebe ich mir grosse Mühe, alles wirklich zu verstehen. Insgesamt konnte ich heute auch viel praktisch austesten, worüber ich sehr glücklich bin.
 
 ---
-
+## Tag 6
 
 ### Tag 6 Notizen
 
@@ -280,13 +280,30 @@ Heute war ich mehrheitlich mit dem praktische unterwegs, also in Verhleich uz de
 
 ## Tag 7
 
-### Tag 7 Notizen
+# Tag 7 – Notizen
 
-_Folgt._
+## Datensicherung von Datenbanken
 
-### Tag 7 Reflexion
+Datenbanksysteme spielen eine grosse Rolle – sei es für das Speichern von schützenswerten Kundendaten oder Produktinformationen. Weil diese Daten so wichtig sind, müssen sie gesichert und geschützt werden.
 
-_Folgt._
+### Möglichkeiten zur Sicherung von Datenbanken
+
+- **Voll-Backup:**  
+  Hier geht es um ein komplettes Backup, welches sehr kostenintensiv ist und eine riesige Kapazität verbraucht. Dafür hat man jedoch eine Sicherung des gesamten Produkts.
+
+- **Differentielles Backup:**  
+  Hier werden nur die Daten gespeichert, die sich verändert haben. Im Gegensatz zum Voll-Backup ist dies kostengünstiger, da nicht mehr alles nochmals gespeichert wird, sondern nur die aktualisierten Daten.
+
+- **Inkrementelles Backup:**  
+  Hier werden nur die Daten gespeichert, die neu sind oder geändert wurden. Im Unterschied zur differentiellen Methode bezieht sich ein inkrementelles Backup immer auf das vorherige (sowohl auf das Voll-Backup als auch auf das letzte inkrementelle Backup). Dadurch spart man Speicherplatz – und somit auch Geld.
+
+---
+
+# Tag 7 – Reflexion
+
+Ich hatte dieses Thema schon einmal, daher war es für mich mehrheitlich nichts Neues. Aus diesem Grund habe ich meine Zeit heute grösstenteils dafür genutzt, ältere Themen zu wiederholen. Trotzdem habe ich auch zu diesem Thema Notizen gemacht.  
+Mit meiner heutigen Leistung bin ich zufrieden.
+
 
 ---
 
