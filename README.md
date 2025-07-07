@@ -148,7 +148,12 @@ Ich konnte heute viele verschiedene Themen bearbeiten. Allerdings war ich etwas 
 
 ### Tag 4 Notizen
 
-_Folgt._
+| Beziehungstyp (logisch)    | MasterTab.links → DetailTab.rechts | Möglich | Nicht möglich / wird zu | Constraints FK         |
+|----------------------------|-------------------------------------|---------|--------------------------|------------------------|
+| **eins zu eins**           | 1:c  c:c                            | 1:1     | ➔ 1:c                   | NN, UQ  --   UQ        |
+| **eins zu viele**          | 1:mc  c:mc                          | 1:m     | ➔ 1:mc<br>c:m ➔ c:mc     | NN  --   --  --        |
+| **viele zu viele**         | m:m, m:mc, mc:m, mc:mc              | –       | ➔ 1:mc–[TT]–mc:1         | –<br>NN -- & NN --     |
+
 
 ### Tag 4 Reflexion
 
