@@ -33,7 +33,7 @@ This repsository was created for "the modul 164".
 
 ### Tag 1 Notizen
 
-_Bild-Link folgt._
+![Alternativtext](https://gitlab.com/ch-tbz-it/Stud/m164/-/raw/main/x_res/m164_modul%C3%BCbersicht-Theorie.drawio.png)
 
 In der Datenmodellierung gibt es drei verschiedene Datenmodelle, die aufeinander aufbauen:
 
