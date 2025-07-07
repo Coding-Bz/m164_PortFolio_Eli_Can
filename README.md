@@ -233,15 +233,6 @@ Heute konnte ich erneut sehr viel lernen und habe vieles mitgenommen. Ich bin da
 
 ---
 
-### Tag 6 Notizen
-
-#### **SUBQUERY (SUBSELECT / Unterabfrage)**
-
-Ein Subselect in einer MySQL-Datenbank ist eine Abfrage **innerhalb einer anderen Abfrage**.
-
-![Alternativtext](https://gitlab.com/ch-tbz-it/Stud/m164/-/raw/main/6.Tag/media/Nicht_Skalar.png)
-
----
 
 ### Tag 6 Notizen
 
